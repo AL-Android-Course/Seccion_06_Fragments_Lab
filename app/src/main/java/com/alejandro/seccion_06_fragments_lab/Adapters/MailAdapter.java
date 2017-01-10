@@ -74,7 +74,7 @@ public class MailAdapter extends BaseAdapter {
         } else {
             shortSubject = currentMail.getSubject();
         }
-        holder.message.setText(shortSubject);
+        holder.subject.setText(shortSubject);
 
 
         // Si el mensaje de correo es más corto de 80 letras, lo dejamos igual, si es más largo,
